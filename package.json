@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/ontheplains/Ecommerce-Project/issues"
   },
-  "homepage": "https://github.com/ontheplains/Ecommerce-Project#readme"
+  "homepage": "https://github.com/ontheplains/Ecommerce-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.4",
+    "morgan": "^1.7.0"
+  }
 }
