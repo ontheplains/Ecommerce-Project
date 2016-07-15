@@ -27,29 +27,29 @@ app.use('/', express.static('./public'));
 
 
 // Tests
-app.get('./', function(req, res){
+app.get('/', function(req, res){
     res.send('this is just a test')
 });
 // Users
-
+TEST- IF THIS VIM EDIT WORKS CORRECTLY, IT WILL BE IN THE ORIGINAL FILE.
 
 // Places
 
 
 // Connection to database
-mongoose.connect(config.uri, function(err) {
+mongoose.connect(db.uri, function(err) {
     if (err) {
         console.log('Connection to MongoDB failed!');
     } else {
-        console.log('Connected to MongoDB at: ', config.uri);
+        console.log('Connected to MongoDB at: ', db.uri);
     }
 });
 
 // Connection to server
-app.listen(config.port, function(err) {
+app.listen(db.port, function(err) {
     if(err) {
         console.log('Connection to Node Server failed!');
     } else {
-        console.log('Express listening on port ' + config.port + '!');
+        console.log('Express listening on port ' + db.port + '!');
     }
 });

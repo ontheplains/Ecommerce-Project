@@ -1,6 +1,6 @@
 {
   "name": "ecommerce-project",
-  "description": "This is a full stack ecommerce project which will interact with a freelance website.",
+  "description": "This is a full stack e-commerce project which will interact with a freelance website.",
   "main": "index.js",
   "authors": [
     "Justin Caldwell"
