@@ -31,7 +31,6 @@ app.get('/', function(req, res){
     res.send('this is just a test')
 });
 // Users
-TEST- IF THIS VIM EDIT WORKS CORRECTLY, IT WILL BE IN THE ORIGINAL FILE.
 
 // Places
 
